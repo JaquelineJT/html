@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz tu pedido</title>
+    <style>
+        body{
+            background: rgb(201, 229, 233);
+        }
+    </style>
+</head>
+<body>
+    <div align="right">
+        <a href="index.html">Menu</a>
+        <a href="ajolobits.html">Mis Ajolobits</a>
+        <a href="pedido.html">Haz tu pedido</a>
+        <a href="nosotros.html">Nosotros</a>
+        |<a href="pastelero.html">Pastelero</a>
+    </div>
+    <h3>Realiza tu pedido</h3>
+    <form action="/formulario" method="get">
+    <label for="pastel">Pasteles</label><br>
+    <select name="pastel" id="pastel">
+        <option select value="selecciona">Selecciona una opcion</option>
+        <option value="pastelrosa">Pastel rosa</option>
+        <option value="pastellila">Pastel lila</option>
+        <option value="pastelazul">Pastel azul</option>
+    </select><br>
+
+    <label for="helado">Helados</label><br>
+    <select name="helado" id="helado">
+        <option select value="selecciona">Selecciona una opcion</option>
+        <option value="heladorosa">Helado rosa</option>
+        <option value="heladolila">Helado lila</option>
+        <option value="heladoazul">Helado azul</option>
+    </select><br>
+
+    <label for="Bobbatea">Bobba tea</label><br>
+    <select name="Bobbatea" id="Bobbatea">
+        <option select value="selecciona">Selecciona una opcion</option>
+        <option value="bobbatearosa">Bobba tea rosa</option>
+        <option value="bobbatealila">Bobba tea lila</option>
+        <option value="bobbateaazul">Bobba tea azul</option>
+    </select><br>
+
+    <label for="adicionales">Adicionales</label><br>
+    <select name="adicionales" id="adicionales">
+        <option select value="selecciona">Selecciona una opcion</option>
+        <option value="chispaspastel">Chispas pastel</option>
+        <option value="cremapastel">Crema pastel</option>
+        <option value="cereza">Crema y cereza pastel</option>
+        <option value="granillopastel">Granillo pastel</option>
+        <option value="chispashelado">Chispas helado</option>
+        <option value="granillohelado">Granillo Helado</option>
+        <option value="mermelada">Mermelada</option>
+        <option value="cremabobbatea">Crema bobba tea</option>
+    </select><br><br>
+    <input type="submit" id="enviar">
+    </form>
+</body>
+</html>
